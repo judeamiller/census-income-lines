@@ -39,18 +39,17 @@
 
     <v-main>
       <Graph />
-      <HelloWorld/>
     </v-main>
   </v-app>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from '@/components/HelloWorld.vue';
+
 import Graph from '@/components/Graph.vue'
 
 @Component({
-  components: {HelloWorld, Graph}
+  components: {Graph}
 })
 
 export default class App extends Vue{
